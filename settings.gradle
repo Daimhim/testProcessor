@@ -1,0 +1,4 @@
+include ':single-annotation'
+include ':single-compiler'
+include ':app'
+rootProject.name = "testProcessor"
