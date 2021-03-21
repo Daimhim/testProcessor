@@ -8,6 +8,7 @@ package org.daimhim.single
  *  mode 生成那种单例
  */
 @Target(AnnotationTarget.CLASS)
+@Retention(AnnotationRetention.SOURCE)
 annotation class Single(val alias:String="",val mode : SingleMode = SingleMode.HUNGRY)
 
 
